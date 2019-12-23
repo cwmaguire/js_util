@@ -1,5 +1,9 @@
 "use strict";
 
+function elem(id){
+  return document.getElementById(id);
+}
+
 function toHex(i){
   var str = Math.round(i).toString(16);
   if(str.length == 1){
